@@ -5,7 +5,7 @@ public class Square extends Shape{
     public double s;
 
     public Square(String name) {
-        super(name);
+        super("Square");
         System.out.println("Enter \"side\" value for square:");
         this.s = scan.nextDouble();
     }

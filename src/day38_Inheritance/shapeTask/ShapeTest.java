@@ -3,9 +3,9 @@ package day38_Inheritance.shapeTask;
 public class ShapeTest {
     public static void main(String[] args) {
 
-        Circle circle = new Circle("Circle1");
-        Square square = new Square("Square1");
-        Rectangle rectangle = new Rectangle("Rectangle1");
+        Circle circle = new Circle("Circle");
+        Square square = new Square("Square");
+        Rectangle rectangle = new Rectangle("Rectangle");
 
 
         System.out.println(circle);

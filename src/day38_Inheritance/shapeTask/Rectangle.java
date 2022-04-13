@@ -6,7 +6,7 @@ public class Rectangle extends Shape{
     public double l;
 
     public Rectangle(String name) {
-        super(name);
+        super("Rectangle");
         System.out.println("Enter \"w\" value for rectangle: ");
         this.w = scan.nextDouble();
         System.out.println("Enter \"l\" value for rectangle: ");

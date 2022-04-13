@@ -7,7 +7,7 @@ public class Circle extends Shape{
 
 
     public Circle(String name) {
-        super(name);
+        super("Circle");
         System.out.println("Enter \"r\" value for circle:");
         this.r = scan.nextDouble();
     }

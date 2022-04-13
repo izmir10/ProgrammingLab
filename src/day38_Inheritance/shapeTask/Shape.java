@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class Shape {
 
     public String name;
-    public String area;
-    public String perimeter;
 
     Scanner scan = new Scanner(System.in);
 
@@ -27,8 +25,6 @@ public class Shape {
     public String toString() {
         return "Shape{" +
                 "name='" + name + '\'' +
-                ", area='" + area + '\'' +
-                ", perimeter='" + perimeter + '\'' +
                 '}';
     }
 }
