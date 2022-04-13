@@ -1,5 +1,7 @@
 package day38_Inheritance.carTask;
 
+import java.lang.Object;
+
 public class BMW extends Car{
     public BMW(String model, int year, double price, String color, int miles) {
         super("BMW", model, year, price, color, miles);
@@ -17,6 +19,8 @@ public class BMW extends Car{
     public void start(){
         System.out.println("Call mechanic to jump start "+brand+" "+model);
     }
+
+
 
 
 }

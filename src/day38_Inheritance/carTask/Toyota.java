@@ -11,6 +11,11 @@ public class Toyota extends Car{
         System.out.println(brand + " " + model + " is reliable");
     }
 
+    @Override //this annotation is optional
+    public void start(){
+        System.out.println("Twist the key to ignition to start " + brand + " " + model);
+    }
+
 }
 
 /*
