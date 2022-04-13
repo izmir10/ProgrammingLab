@@ -38,6 +38,8 @@ public class Shape {
     public String toString() {
         return "Shape{" +
                 "name='" + name + '\'' +
+                ", area='" + area() + '\'' +
+                ", perimeter='" + perimeter() + '\'' +
                 '}';
     }
 }
