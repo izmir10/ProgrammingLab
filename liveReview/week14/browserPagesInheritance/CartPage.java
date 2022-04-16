@@ -13,8 +13,8 @@ public class CartPage extends AmazonHomePage{
         System.out.println("Filling necessary fileds with : " + buyerInfo);
     }
 
-    public void parFor(long cardNumber){
+
+    public void payFor(long cardNumber) {
         System.out.println("Paying with credit card: " + cardNumber);
     }
-
 }

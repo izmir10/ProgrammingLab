@@ -22,9 +22,22 @@ public class TestCase {
         String product = amazonHomePage.product;
         productObject.shopFor(product);  //
 
+        // navigate to Cart: I can use both objects
+        // productObject.navigateTo("Cart");  we can use as well child class object
+        amazonHomePage.navigateTo("Cart");
 
+        CartPage cartPage = new CartPage("Chrome","Mike Smith");
+        cartPage.fillInfo();
+        cartPage.payFor(4325654634251678L);
 
+        cartPage.setName("Firefox");  // There is already an open browser : Chrome
 
+        // I needed to closeBrowser
+        cartPage.closeBrowser();
+
+        cartPage.setName("Firefox");
+        System.out.println("I am automating : "+cartPage.getName());
+        System.out.println("I am automating : "+amazonHomePage.getName());
     }
 }
 
