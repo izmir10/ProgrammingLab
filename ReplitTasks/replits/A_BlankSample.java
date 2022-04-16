@@ -10,6 +10,5 @@ public class A_BlankSample {
 
 
 
-
     }
 }
