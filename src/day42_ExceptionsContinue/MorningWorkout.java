@@ -9,11 +9,7 @@ public class MorningWorkout {
             System.out.print("\r Push up " + i);
 
             sleep(1.5);
-/*            try {
-                Thread.sleep(1500);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }*/
+
         }
 
         System.out.println("\n--------------- Push-ups completed ---------------");
@@ -24,11 +20,7 @@ public class MorningWorkout {
             System.out.print("\r Pull up " + i);
 
             sleep(1.5);
-            /*            try {
-                Thread.sleep(2500);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }*/
+
         }
         System.out.println("\n--------------- Pull-ups completed ---------------");
 
