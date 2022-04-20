@@ -11,7 +11,7 @@ public class FinallyBlock {
         } catch (RuntimeException e){
             e.printStackTrace();
             System.out.println("Catch Block");
-    //        System.exit(0);               // Only way to stop execution of finally block, we must explicitly stop the system
+    //        System.exit(0);               // Only way to stop execution of finally block, we must explicitly terminate the system
         } finally {
             System.out.println("Finally Block");  // Finally block always get executed, regardless of the exception handled or not handled
         }
