@@ -2,13 +2,28 @@ package day42_ExceptionsContinue;
 
 public class DisadvantageOfThrowsKeyword2 {
 
-    public static void main(String[] args) throws  InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
 
         // System.out.println("Hello");
+
 
         method1();
         method2();
         method3();
+
+
+
+
+/*
+        try {
+            method1();
+            method2();
+            method3();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+*/
 
 
         String str = null;
