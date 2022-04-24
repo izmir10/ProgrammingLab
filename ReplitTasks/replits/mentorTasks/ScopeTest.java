@@ -1,4 +1,4 @@
-package replits.MettorTasks;
+package replits.mentorTasks;
 
 public class ScopeTest {
 
