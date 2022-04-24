@@ -34,7 +34,7 @@ public class ShoppingList {
         System.out.println(shoppingListReport);
         System.out.println("Total price: "+totalPrice);
 
-
+scan.close();
     }
 
 
