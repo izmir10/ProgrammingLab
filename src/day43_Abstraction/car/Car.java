@@ -54,9 +54,7 @@ public abstract class Car {
         this.price = price;
     }
 
-    public void stop(){
-        System.out.println("Press the brake");
-    }
+    public  void stop(){System.out.println("Press the brake to stop");};
 
     public abstract void start();
 
