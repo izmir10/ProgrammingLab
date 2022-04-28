@@ -8,7 +8,7 @@ public final class Developer extends Employee{
 
     @Override
     public void work() {
-        System.out.println(getName()+ ", " + getJobTitle()+ " is developing");
+        System.out.println(getName()+ ", " + getJobTitle()+ " is unit testing");
     }
 
     @Override
