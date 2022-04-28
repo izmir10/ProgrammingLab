@@ -21,6 +21,8 @@ public class EmployeeObjects {
         driver.sleep();
         driver.work();
 
+        Teacher teacher = new Teacher("Drake", 59, 'M', 003, "Literature Teacher",120000);
+
 
 
 
