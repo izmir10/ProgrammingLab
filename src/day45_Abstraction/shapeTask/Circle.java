@@ -31,5 +31,10 @@ public class Circle extends Shape{
         return 2 * radius * pi;
     }
 
-
+    @Override
+    public String toString() {
+        return super.toString()+
+                ", radius=" + radius +
+                '}';
+    }
 }
