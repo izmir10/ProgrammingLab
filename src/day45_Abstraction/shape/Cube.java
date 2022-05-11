@@ -1,11 +1,11 @@
-package day45_Abstraction.shapeTask;
+package day45_Abstraction.shape;
 
-public class Square extends Shape{
+public class Cube extends Shape implements Volume{
 
     private double side;
 
-    public Square(double side) {
-        super("Square");
+    public Cube(double side) {
+        super("Cube");
         setSide(side);
     }
 
@@ -20,21 +20,27 @@ public class Square extends Shape{
         this.side = side;
     }
 
+
     @Override
     public double area() {
-        return side * side;
+        return side * side * 6;
     }
 
     @Override
     public double perimeter() {
-        return side * 4;
+        return side * side * side;
     }
 
     @Override
     public String toString() {
-        return "Square{" +
+        return "Cube{" +
                 super.toString() +
                 "side=" + side +
                 '}';
+    }
+
+    @Override
+    public double volume() {
+        return 0;
     }
 }

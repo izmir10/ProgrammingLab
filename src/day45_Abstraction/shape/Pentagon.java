@@ -1,7 +1,7 @@
-package day45_Abstraction.shapeTask;
+package day45_Abstraction.shape;
 
-public class Rectangle extends Shape{
-    public Rectangle(String name) {
+public class Pentagon extends Shape{
+    public Pentagon(String name) {
         super(name);
     }
 

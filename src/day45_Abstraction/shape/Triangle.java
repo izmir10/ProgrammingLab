@@ -1,4 +1,4 @@
-package day45_Abstraction.shapeTask;
+package day45_Abstraction.shape;
 
 public class Triangle extends Shape{
     public Triangle(String name) {
