@@ -4,6 +4,7 @@ public interface Worker {
 
     public abstract void work(String job);  // public abstract ==> no need. All interfaces are public and abstract
 
+    double getPaid();
 
 
 }
