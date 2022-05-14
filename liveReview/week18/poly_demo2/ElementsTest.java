@@ -41,6 +41,8 @@ public class ElementsTest {
         WebElement login = WebElementUtility.getLinkWithText("login");
         login.click();
 
+        ((Links)login).getLinkHref();
+
 
     }
 }
