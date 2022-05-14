@@ -34,10 +34,10 @@ public class SuperManTest {
         System.out.println("b2 = " + b2); // true
         System.out.println("b3 = " + b3); // true
 
-        ( (Worker)superManOne ).work("Engineer"); // Upcasting ==> from Father class to Worker Interface
+        ( (Worker)superManOne ).work("Engineer"); // Upcasting (Explicit casting) ==> from Father class to Worker Interface
         ((Worker) superManOne).getPaid();
 
-        ((Parent)superManTwo).raiseKid();  // Upcasting  ==> from Father class to Parent Class
+        ((Parent)superManTwo).raiseKid();  // Upcasting (Explicit casting) ==> from Father class to Parent Class
         ((Parent)superManTwo).playWithKid();
         ((Parent)superManTwo).feedKid();
 
