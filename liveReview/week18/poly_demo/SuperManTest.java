@@ -13,6 +13,7 @@ public class SuperManTest {
         superManOne.raiseKid();
         // superManOne.work("SDET");  //==> Error! Unreachable
 
+
         Worker superManTwo = new Father();  //Polymorphism.
         superManTwo.getPaid();
         superManTwo.work("SDET");
@@ -22,9 +23,9 @@ public class SuperManTest {
         superManThree.playWithKid();
         superManThree.raiseKid();
         superManThree.getPaid();
-        superManThree.work("SDET");
+        superManThree.work("QA");
 
-/*
+
         boolean b1 = superManOne instanceof Father;
         boolean b2 = superManTwo instanceof Father;
         boolean b3 = superManThree instanceof Father;
@@ -32,7 +33,15 @@ public class SuperManTest {
         System.out.println("b1 = " + b1); // true
         System.out.println("b2 = " + b2); // true
         System.out.println("b3 = " + b3); // true
-*/
+
+        ( (Worker)superManOne ).work("Engineer"); // Upcasting ==> from Father class to Worker Interface
+        ((Worker) superManOne).getPaid();
+
+        ((Parent)superManTwo).raiseKid();  // Upcasting  ==> from Father class to Parent Class
+        ((Parent)superManTwo).playWithKid();
+        ((Parent)superManTwo).feedKid();
+
+
 
 
     }
